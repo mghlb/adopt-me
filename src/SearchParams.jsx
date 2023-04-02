@@ -40,7 +40,7 @@ const SearchParams = () => {
             type='text'
             id='location'
             value={location}
-            placeholder='location'
+            placeholder='Location'
             onChange={(e) => setLocation(e.target.value)}
           />
         </label>
